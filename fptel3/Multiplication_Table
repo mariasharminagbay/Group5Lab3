@@ -1,0 +1,21 @@
+function multiplicationTable(size) {
+  
+  var result =[];
+   
+  
+  for (var i= 1 ; i<= size ; i++)
+  {
+     
+     var ar = [];
+            for (var j=1; j<= size; j++){
+                    ar.push(i*j);
+                   
+                   
+                }
+                result.push(ar);
+       
+  }
+  
+  console.log(result);
+  return result;
+}
