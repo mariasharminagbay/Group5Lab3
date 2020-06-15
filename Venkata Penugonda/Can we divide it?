@@ -1,0 +1,14 @@
+function isDivideBy(number, a, b) {
+var n=number, a=a,b=b;
+var k;
+  if(n%a==0 && n%b==0)
+  {
+   k=true;
+  }
+  else
+  {
+  k=false;}
+  
+  return k;
+
+}
