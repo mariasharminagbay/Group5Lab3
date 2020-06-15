@@ -1,0 +1,13 @@
+function countSheeps(arrayOfSheep) {
+var k=arrayOfSheep;
+var i=0,j=0;
+  while(i < k.length)
+  {
+  if(k[i]=== true)
+  {
+   j++;
+  }
+  i++;
+  }
+  return j;
+}
