@@ -1,0 +1,15 @@
+function findD(array){
+  
+  var pk = null;
+  for(var i = 0; i < array.length-2; i++){
+    for(var j = i+1; j < array.length-1; j++){
+      for(var k = j+1; k < array.length; k++){
+        var total = array[i] + array[j] + array[k];
+        if(array.indexOf(total) > -1 && (pk == null || total > pk) && total != array[i] && total != array[j] && total != array[k]){
+          pk = total;
+        }
+      }
+    }
+  }
+  return pk;
+}
